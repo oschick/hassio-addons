@@ -43,6 +43,8 @@ LABEL \
 
 COPY data/run.sh /
 
+RUN chmod a+x /run.sh
+
 CMD ["/run.sh"]
 
 # RUN addgroup --gid 1337 app && adduser --uid 1337 --gid 1337 --disabled-password --gecos "App User" app
