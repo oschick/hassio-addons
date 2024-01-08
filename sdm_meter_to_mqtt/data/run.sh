@@ -16,6 +16,7 @@ export SDM_TYPES=$(bashio::config 'sdm_types')
 
 export UPDATE_TIME=$(bashio::config 'update_time')
 
+bashio::log.info "Starting SDM Meter to MQTT"
 # Start the script
 python3 src/agent.py
 ```
