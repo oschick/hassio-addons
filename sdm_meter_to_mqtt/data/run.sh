@@ -2,19 +2,19 @@
 set -e
 
 # Get the MQTT settings
-export MQTT_BROKER_AUTH=$(bashio::config 'mqtt_auth')
-export MQTT_BROKER_IP=$(bashio::config 'mqtt_broker_ip')
-export MQTT_BROKER_PORT=$(bashio::config 'mqtt_broker_port')
-export MQTT_SDM_TOPICS=$(bashio::config 'mqtt_sdm_topics')
+export MQTT_BROKER_AUTH=$(bashio::config 'MQTT_BROKER_AUTH')
+export MQTT_BROKER_IP=$(bashio::config 'MQTT_BROKER_IP')
+export MQTT_BROKER_PORT=$(bashio::config 'MQTT_BROKER_PORT')
+export MQTT_SDM_TOPICS=$(bashio::config 'MQTT_SDM_TOPICS')
 
 # Get the SDM settings
-export SDM_IDS=$(bashio::config 'sdm_ids')
-export SDM_IP=$(bashio::config 'sdm_ip')
-export SDM_PORT=$(bashio::config 'sdm_port')
-export SDM_NETWORK_TYPE=$(bashio::config 'sdm_network_type')
-export SDM_TYPES=$(bashio::config 'sdm_types')
+export SDM_IDS=$(bashio::config 'SDM_IDS')
+export SDM_IP=$(bashio::config 'SDM_IP')
+export SDM_PORT=$(bashio::config 'SDM_PORT')
+export SDM_NETWORK_TYPE=$(bashio::config 'SDM_NETWORK_TYPE')
+export SDM_TYPES=$(bashio::config 'SDM_TYPES')
 
-export UPDATE_TIME=$(bashio::config 'update_time')
+export UPDATE_TIME=$(bashio::config 'UPDATE_TIME')
 
 bashio::log.info "Starting SDM Meter to MQTT"
 # Start the script

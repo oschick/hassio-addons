@@ -12,9 +12,9 @@
     "init": false,
     "stage": "experimental",
     "options": {
-        "mqtt_auth": "password",
-        "mqtt_broker_ip": "str",
-        "mqtt_broker_port": "int",
+        "MQTT_BROKER_AUTH": "password",
+        "MQTT_BROKER_IP": "str",
+        "MQTT_BROKER_PORT": "int",
         "MQTT_SDM_TOPICS": "str",
         "SDM_IDS": "str",
         "SDM_IP": "str",
@@ -24,9 +24,9 @@
         "UPDATE_TIME": "int"
     },
     "schema":  {
-        "mqtt_auth": "password",
-        "mqtt_broker_ip": "str",
-        "mqtt_broker_port": "int",
+        "MQTT_BROKER_AUTH": "password",
+        "MQTT_BROKER_IP": "str",
+        "MQTT_BROKER_PORT": "int",
         "MQTT_SDM_TOPICS": "str",
         "SDM_IDS": "str",
         "SDM_IP": "str",
