@@ -4,8 +4,11 @@ set -e
 # Get the MQTT settings
 export MQTT_BROKER_AUTH=$(bashio::config 'MQTT_BROKER_AUTH')
 export MQTT_BROKER_IP=$(bashio::config 'MQTT_BROKER_IP')
+echo $MQTT_BROKER_IP
 export MQTT_BROKER_PORT=$(bashio::config 'MQTT_BROKER_PORT')
+echo $MQTT_BROKER_PORT
 export MQTT_SDM_TOPICS=$(bashio::config 'MQTT_SDM_TOPICS')
+echo $MQTT_SDM_TOPICS
 
 # Get the SDM settings
 export SDM_IDS=$(bashio::config 'SDM_IDS')
