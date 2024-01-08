@@ -9,6 +9,7 @@
     "panel_icon": "mdi:meter",
     "boot": "auto",
     "legacy": true,
+    "init": false,
     "stage": "experimental",
     "options": {
         "mqtt_auth": "password",
