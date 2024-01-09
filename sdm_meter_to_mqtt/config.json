@@ -1,6 +1,6 @@
 {
     "name": "sdm_meter_to_mqtt",
-    "version": "multiple",
+    "version": "2ded5e7",
     "slug": "sdm_meter_to_mqtt",
     "description": "SDM Meter data to MQTT",
     "url": "https://github.com/oschick/eastron-sdm-to-mqtt/",
