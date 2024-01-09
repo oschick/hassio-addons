@@ -1,6 +1,6 @@
 {
     "name": "solarmax_to_mqtt",
-    "version": "main",
+    "version": "5f930f6",
     "slug": "solarmax_to_mqtt",
     "description": "Solarmax inverter data to MQTT",
     "url": "https://github.com/oschick/solarmax-agent",
