@@ -1,6 +1,6 @@
 {
   "name": "Solarmax to MQTT",
-  "version": "eb65c02",
+  "version": "ed63eca",
   "slug": "solarmax-mqtt",
   "description": "Solarmax inverter to MQTT bridge with Home Assistant auto-discovery",
   "url": "https://github.com/oschick/solarmax-agent",
